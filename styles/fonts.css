@@ -1,0 +1,11 @@
+/*Create font faces with local fonts*/
+
+@font-face {
+    font-family: 'Geist';
+    src: url('../fonts/Geist-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Geist-bold';
+    src: url('../fonts/Geist-Bold.otf');
+}
