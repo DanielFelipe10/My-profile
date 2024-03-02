@@ -3,7 +3,10 @@
 /*Declare general variables*/
 :root{
     --bg-color: #0A0A0A;
-    --primary-blue: #003CFF;
+    --blue-main: #003CFF;
+    --green-main: #41EB3D;
+    --orange-main: #FF7300;
+    --purple-main: #C800FF;
 }
 
 *{
@@ -17,6 +20,47 @@ body{
     color: white;
 }
 
+nav{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 20%;
+    height: 220px;
+}
+
+nav ul{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav ul li{
+    width: 30px;
+    height: 50px;
+    background-color: #003CFF;
+}
+
+#btn_about{
+    background: var(--blue-main);
+}
+
+#btn_education{
+    background: var(--purple-main);
+}
+
+#btn_skills{
+    background: var(--green-main);
+}
+
+#btn_projects{
+    background: var(--orange-main);
+}
+
 /*Header styles*/
 header{
     position: fixed;
@@ -24,7 +68,7 @@ header{
     left: 35%;
     width: 30%;
     font-size: 1.2em;
-    border: 1px solid #222222;
+    border: 1px solid white;
     border-radius: 40px;
     background-color: transparent;
     backdrop-filter: blur(10px);
@@ -38,4 +82,67 @@ header ul{
     height: 100%;
     padding: 0;
     list-style: none;
+}
+
+header ul img{
+    width: 15px;
+}
+
+/* Welcome view */
+
+.welcome_view{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+}
+
+.welcome_view h6{
+    margin: 0;
+    margin-right: 11%;
+    font-size: 2em;
+}
+
+.welcome_view h1{
+    margin: 0;
+    margin-right: 2%;
+    font-size: 14em;
+}
+
+.welcome_view h4{
+    font-size: 2em;
+    margin-right: 60%;
+}
+
+/* Separators */
+
+.separator{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 30%;
+    height: 10%;
+    border-radius: 30px 0 0 0;
+}
+
+#sp_welcome{
+    background: var(--blue-main);
+}
+
+#sp_about{
+    background: var(--green-main);
+}
+
+
+
+/* About me view*/
+
+.about_me{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--blue-main);
 }
