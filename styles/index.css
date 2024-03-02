@@ -112,10 +112,20 @@ header ul img{
     font-size: 14em;
 }
 
-.welcome_view h4{
+.whoami{
+    width: 28%;
     font-size: 2em;
-    margin-right: 60%;
+    margin-right: 55%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
+
+.whoami img{
+    width: 50px;
+    border-radius: 50%;
+}
+
 
 /* Separators */
 
