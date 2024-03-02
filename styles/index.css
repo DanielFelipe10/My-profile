@@ -6,7 +6,36 @@
     --primary-blue: #003CFF;
 }
 
+*{
+    box-sizing: border-box;
+    font-family: 'Geist', 'Sans-serif';
+}
+
 body{
     margin: 0;
     background-color: var(--bg-color);
+    color: white;
+}
+
+/*Header styles*/
+header{
+    position: fixed;
+    top: 5%;
+    left: 35%;
+    width: 30%;
+    font-size: 1.2em;
+    border: 1px solid #222222;
+    border-radius: 40px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+}
+
+header ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    list-style: none;
 }
