@@ -6,7 +6,7 @@
     --blue-main: #003CFF;
     --green-main: #41EB3D;
     --orange-main: #FF7300;
-    --purple-main: #C800FF;
+    --purple-main: #A700CF;
 }
 
 *{
@@ -55,15 +55,15 @@ nav ul li{
 }
 
 #btn_education{
-    background: var(--purple-main);
-}
-
-#btn_skills{
     background: var(--green-main);
 }
 
-#btn_projects{
+#btn_skills{
     background: var(--orange-main);
+}
+
+#btn_projects{
+    background: var(--purple-main);
 }
 
 /*Header styles*/
@@ -94,9 +94,15 @@ header ul img{
     width: 15px;
 }
 
-/* Welcome view */
+/* General view */
+.view{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
 
-.welcome_view{
+/* Welcome view */
+.welcome{
     position: relative;
     width: 100%;
     height: 100vh;
@@ -126,7 +132,7 @@ header ul img{
     margin-bottom: 10px;
 }
 
-.welcome_view h1{
+.welcome h1{
     margin: 0;
     margin-right: 2%;
     font-size: 14em;
@@ -146,9 +152,7 @@ header ul img{
     border-radius: 50%;
 }
 
-
 /* Separators */
-
 .separator{
     position: absolute;
     bottom: 0;
@@ -166,19 +170,38 @@ header ul img{
     background: var(--green-main);
 }
 
+#sp_education{
+    background: var(--orange-main);
+}
+
+#sp_skills{
+    background: var(--purple-main);
+}
+
+
 
 
 /* About me view*/
-
 .about_me{
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background-color: var(--blue-main);
+    background: var(--blue-main);
+}
+
+/* About me view*/
+.education{
+    background: var(--green-main);
+}
+
+/* About me view*/
+.skills{
+    background: var(--orange-main);
+}
+
+/* About me view*/
+.projects{
+    background: var(--purple-main);
 }
 
 /* Back button */
-
 .btn_back{
     position: fixed;
     bottom: 0;
