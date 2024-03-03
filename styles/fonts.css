@@ -1,5 +1,7 @@
-/*Create font faces with local fonts*/
+/* Web fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&family=Poppins&display=swap');
 
+/*Create font faces with local fonts*/
 @font-face {
     font-family: 'Geist';
     src: url('../fonts/Geist-Regular.otf');

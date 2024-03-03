@@ -5,8 +5,8 @@
     --bg-color: #0A0A0A;
     --blue-main: #003CFF;
     --green-main: #41EB3D;
-    --orange-main: #FF7300;
-    --purple-main: #A700CF;
+    --orange-main: #FF930A;
+    --purple-main: #8014FF;
 }
 
 *{
@@ -159,7 +159,18 @@ header ul img{
     right: 0;
     width: 30%;
     height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 30px 0 0 0;
+}
+
+.separator p{
+    margin: 0;
+    color: rgba(0, 0, 0, 0.233);
+    font-family: "Nothing You Could Do", cursive;
+    font-weight: bold;
+    font-size: 30px;
 }
 
 #sp_welcome{
@@ -177,9 +188,6 @@ header ul img{
 #sp_skills{
     background: var(--purple-main);
 }
-
-
-
 
 /* About me view*/
 .about_me{
@@ -199,6 +207,13 @@ header ul img{
 /* About me view*/
 .projects{
     background: var(--purple-main);
+}
+
+/* Footer */
+footer{
+    width: 100%;
+    height: 70vh;
+    background: var(--bg-color);
 }
 
 /* Back button */
