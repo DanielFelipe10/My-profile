@@ -12,7 +12,6 @@
 *{
     z-index: 1;
     box-sizing: border-box;
-    font-family: 'Geist', 'Sans-serif';
 }
 
 html{
@@ -23,6 +22,7 @@ body{
     margin: 0;
     background-color: var(--bg-color);
     color: white;
+    font-family: 'Geist', 'Sans-serif';
 }
 
 nav{
@@ -74,7 +74,7 @@ header{
     left: 35%;
     width: 30%;
     font-size: 1.2em;
-    border: 1px solid white;
+    border: 2px solid rgba(0, 0, 0, 0.095);
     border-radius: 40px;
     background-color: transparent;
     backdrop-filter: blur(10px);
@@ -196,7 +196,41 @@ header ul img{
 
 /* About me view*/
 .education{
+    font-size: 1.1em;
     background: var(--green-main);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.education h1{
+    position: absolute;
+    top: 0;
+    color: green;
+}
+
+.education h4, h5, p{
+    margin: 0;
+}
+
+.education h5, p{
+    color: green;
+}
+
+.education p{
+    margin-bottom: 30px;
+}
+
+.edu_formal, .certifications{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
+
+.certifications{
+    align-items: start;
 }
 
 /* About me view*/
