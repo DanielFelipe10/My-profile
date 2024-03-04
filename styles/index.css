@@ -99,6 +99,7 @@ header ul img{
     position: relative;
     width: 100%;
     height: 100vh;
+    font-family: "Nothing You Could Do", cursive;
 }
 
 /* Welcome view */
@@ -205,7 +206,6 @@ header ul img{
 
 .education h1{
     position: absolute;
-    top: 0;
     color: green;
 }
 
@@ -229,8 +229,54 @@ header ul img{
     justify-content: center;
 }
 
+#sep{
+    opacity: 0.2;
+    width: 3%;
+}
+
+.edu_formal h1{
+    left: 50px;
+    bottom: 10%;
+}
+
+.certifications h1{
+    top: 5%;
+    right: 50px;
+}
+
 .certifications{
     align-items: start;
+}
+
+/* Stickers */
+
+.stickers_bg{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 0 black;
+}
+
+.stickers_bg img{
+    width: 70%;
+}
+
+#sticker_edu1{
+    width: 15%;
+    position: absolute;
+    right: 90px;
+    bottom: 190px;
+    filter: drop-shadow(5px 5px 0 black);
+}
+
+#sticker_edu2{
+    position: absolute;
+    left: 90px;
+    top: 100px;
 }
 
 /* About me view*/
