@@ -279,9 +279,69 @@ header ul img{
     top: 100px;
 }
 
-/* About me view*/
+/* Skilss me view*/
 .skills{
     background: var(--orange-main);
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill{
+    width: 55%;
+    height: 100%;
+}
+
+.tecnos{
+    width: 35%;
+    height: 100%;
+}
+
+/* Paper efect */
+
+.paper {
+    width: 90%;
+    height: 80%;
+    margin: 2em auto;
+    background: #fff;
+    box-shadow: 4px 4px 0 #744500;
+    background-image:
+      linear-gradient(
+        90deg,
+        #fff 12px, 0,
+        #744500 15px, 0,
+        var(--orange-main) 20px, 0,
+        #fff 100%
+      ),
+      radial-gradient(
+        circle closest-side,
+        rgba(255,255,255,0) 88%,
+        #fff 100%
+      ),
+      radial-gradient(
+        circle at 22px 8px,
+        var(--orange-main) 40%,
+        #744500 40%,
+        #744500 100%
+      );
+    background-size: 32px 8px, 32px 16px, 32px 16px;
+    background-repeat: space no-repeat;
+    background-position: center top, center 6px, center 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .paper img{
+    margin: 5%;
+    width: 20%;
+  }
+
+.skills h1{
+    height: 5vh;
+    margin: auto 0;
+    transform: rotate(270deg);
+    font-size: 4em;
 }
 
 /* About me view*/
