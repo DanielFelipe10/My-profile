@@ -209,11 +209,11 @@ header ul img{
     color: green;
 }
 
-.education h4, h5, p{
+.education p,h4, h5{
     margin: 0;
 }
 
-.education h5, p{
+.education p, h5 {
     color: green;
 }
 
@@ -281,28 +281,66 @@ header ul img{
 
 /* Skilss me view*/
 .skills{
+    color: white;
     background: var(--orange-main);
     display: flex;
     justify-content: space-between;
 }
 
+.skills h1{
+    color: #a56910;
+}
+
 .skill{
-    width: 55%;
+    width: 70%;
     height: 100%;
+    padding:5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.2em;
+}
+
+.skill ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    color: #744500;
+    font-weight: bold;
 }
 
 .tecnos{
-    width: 35%;
+    width: 30%;
     height: 100%;
 }
 
+.tecnos h1{
+    text-align: center;
+}
+
+#sticker_sk1{
+    position: absolute;
+    width: 10%;
+    top: 30px;
+    right: 30%;
+    filter: drop-shadow(5px 5px 0 black);
+}
+
+#sticker_sk2{
+    position: absolute;
+    top: 60px;
+    left: 30%;
+}
 /* Paper efect */
 
 .paper {
-    width: 90%;
-    height: 80%;
+    width: 70%;
+    height: 70%;
     margin: 2em auto;
+    padding: 10px;
     background: #fff;
+    border-radius: 5px;
     box-shadow: 4px 4px 0 #744500;
     background-image:
       linear-gradient(
@@ -327,22 +365,20 @@ header ul img{
     background-repeat: space no-repeat;
     background-position: center top, center 6px, center 6px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
   }
-
-  .paper img{
-    margin: 5%;
-    width: 20%;
+  
+  .paper i{
+    margin: 3%;
+    font-size: 4em;
+    color: var(--bg-color);
+    filter: drop-shadow(4px 4px 0 #aaaaaa);
+    color: #744500;
   }
 
-.skills h1{
-    height: 5vh;
-    margin: auto 0;
-    transform: rotate(270deg);
-    font-size: 4em;
-}
+
 
 /* About me view*/
 .projects{
