@@ -182,6 +182,11 @@ header ul img{
     background: var(--green-main);
 }
 
+#sp_about p{
+    width: 100%;
+    text-align: center;
+}
+
 #sp_education{
     background: var(--orange-main);
 }
@@ -193,6 +198,54 @@ header ul img{
 /* About me view*/
 .about_me{
     background: var(--blue-main);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about_me h1{
+    margin: 0;
+    font-size: 3em;
+    font-weight: bold;
+    color: #001c76bd;
+}
+
+.about_me p{
+    width: 40%;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+#about_bg{
+    position: absolute;
+    top: 0;
+    left: 10;
+    width: 60%;
+    opacity: .2;
+    transform: rotate(140deg);
+}
+
+#sticker_ab2{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+#sticker_ab3{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 250px;
+    right: 100px;
+}
+
+#sticker_ab4{
+    position: absolute;
+    top: 380px;
+    left: 250px;
+    width: 100px;
+    height: 100px;
 }
 
 /* About me view*/
