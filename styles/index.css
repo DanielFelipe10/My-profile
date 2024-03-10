@@ -435,7 +435,22 @@ header ul img{
 
 /* About me view*/
 .projects{
-    background: var(--purple-main);
+    background-color: var(--purple-main);
+    background-image: url("https://www.pikpng.com/pngl/b/373-3733739_technology-high-tech-line-euclidean-vector-abstract-white.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects a{
+    text-align: center;
+}
+
+.projects img{
+    width: 40%;
 }
 
 /* Footer */
